@@ -4,6 +4,13 @@ public class student {
 	int regno;
 	String name;
 	int age;
+	float per;
+	public float getPer() {
+		return per;
+	}
+	public void setPer(float per) {
+		this.per = per;
+	}
 	public int getAge() {
 		return age;
 	}
@@ -24,7 +31,7 @@ public class student {
 	}
 	@Override
 	public String toString() {
-		return "student [regno=" + regno + ", name=" + name + ", age=" + age + "]";
+		return "student [regno=" + regno + ", name=" + name + ", age=" + age + ", per=" + per + "]";
 	}
 	
 	
